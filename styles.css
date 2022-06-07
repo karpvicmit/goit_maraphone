@@ -100,6 +100,9 @@ body {
     margin-left: 10px;
     opacity: 0.5;
     color: #FFFFFF;
+}
+
+#contacts a[href^="tel:"] {
     text-decoration: none;
 }
 

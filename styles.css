@@ -15,16 +15,101 @@ body {
     margin-bottom: 40px;
     display: flex;
     max-width: 1200px;
-    background-color: #FFFFFF;
+    background: linear-gradient(339deg, rgba(237,247,193,1) 22%, rgba(217,228,166,1) 46%, rgba(141,190,112,1) 94%);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* Left Side */
+
+#sidebar {
+    
+    /* background-color: #27261A; */
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 40px 0;
+    width: 370px;
+}
+
+#sidebar img {
+    position: relative;
+    display: block;
+    width: 370px;
+}
+
+.sidebar-blocks {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #FFFFFF;
+}
+
+.sidebar-blocks h3 {
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+}
+
+#contacts {
+    position: relative;
+    margin-top: 50px;
+}
+
+#contacts div {
+    margin-top: 8px;
+}
+
+#contacts p {
+    margin: 0;
+}
+
+#contacts span{
+    font-weight: 700;
+}
+
+#contacts a {
+    margin-left: 10px;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+
+#contacts a:hover {
+    opacity: 1;
+}
+
+#contacts a[href^="tel:"] {
+    text-decoration: none;
+}
+
+#tech-skills {
+    position: relative;
+    margin-top: 40px;
+}
+
+#soft-skills {
+    position: relative;
+    margin-top: 40px;
+}
+
+ 
+.sidebar-blocks ul {
+    margin-left: -40px;
+}
+
+.sidebar-blocks li {
+    list-style-type: none;
+}
+
+.sidebar-blocks li:before {
+    color: #FB6D3A;
+    font-weight: 700;
+    content: "•";
+    padding-right: 10px;
+} 
 
 /* Right Side */
 
 #main-content {
     position: relative;
     padding-left: 90px;
-    background-color: #FFFFFF;
     color:#000000;
 }
 
@@ -97,6 +182,10 @@ body {
     margin-left: 10px;
 }
 
+#projects a:hover {
+    color:#000000;
+}
+
 #work {
     position: relative;
     margin-top: 50px;
@@ -167,83 +256,4 @@ body {
     color: #000000;
 }
 
-/* Left Side */
 
-#sidebar {
-    background-color: #1E2939;
-    padding: 40px 0;
-    width: 370px;
-}
-
-#sidebar img {
-    position: relative;
-    display: block;
-    width: 370px;
-    height: 354px;
-}
-
-.sidebar-blocks {
-    position: relative;
-    margin-left: 40px;
-    margin-right: 40px;
-    color: #FFFFFF;
-}
-
-.sidebar-blocks h3 {
-    font-size: 22px;
-    line-height: 27px;
-    margin: 0;
-}
-
-#contacts {
-    position: relative;
-    margin-top: 50px;
-}
-
-#contacts div {
-    margin-top: 8px;
-}
-
-#contacts p {
-    margin: 0;
-}
-
-#contacts span{
-    font-weight: 700;
-}
-
-#contacts a {
-    margin-left: 10px;
-    opacity: 0.5;
-    color: #FFFFFF;
-}
-
-#contacts a[href^="tel:"] {
-    text-decoration: none;
-}
-
-#tech-skills {
-    position: relative;
-    margin-top: 40px;
-}
-
-#soft-skills {
-    position: relative;
-    margin-top: 40px;
-}
-
- 
-.sidebar-blocks ul {
-    margin-left: -40px;
-}
-
-.sidebar-blocks li {
-    list-style-type: none;
-}
-
-.sidebar-blocks li:before {
-    color: #FB6D3A;
-    font-weight: 700;
-    content: "•";
-    padding-right: 10px;
-} 

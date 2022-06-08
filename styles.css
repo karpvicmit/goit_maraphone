@@ -14,8 +14,8 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
+    max-width: 1200px;
+    background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -25,7 +25,7 @@ body {
     position: relative;
     padding-left: 90px;
     background-color: #FFFFFF;
-    color:#000000
+    color:#000000;
 }
 
 #main-content h4 span {
@@ -56,6 +56,7 @@ body {
 #projects {
     position: relative;
     margin-top: 40px;
+    width: 485px;
 }
 
 #projects h3 {
@@ -65,12 +66,29 @@ body {
     margin: 0;
 }
 
-#projects>ol {
+#projects > ol {
     padding-left: 15px;
     font-weight: 700;
+    flex-wrap: nowrap;
 }
 
-#projects>ol>li span,a {
+#projects > ol > li > div {
+    display: flex;
+    align-items: stretch;
+}
+
+#projects span.dashed-bottom-line {
+    border-bottom: 1px dashed #A8A8A8;
+    flex-grow: 1;
+}
+
+#projects div > div {
+    
+    display: inline-block;
+    margin-left: auto;
+}   
+
+#projects span,a {
     font-weight: 400;
 }
 
@@ -82,6 +100,7 @@ body {
 #work {
     position: relative;
     margin-top: 50px;
+    width: 525px;
 }
 
 #work h3 {
@@ -112,14 +131,17 @@ body {
     color:#595959;
 }
 
+
 #education {
     position: relative;
     margin-top: 45px;
+    margin-bottom: 100px;
 }
 
 #education h3 {
     font-size: 22px;
     line-height: 27px;
+    margin: 0;
 }
 
 #education h4 {
@@ -146,6 +168,7 @@ body {
 #sidebar {
     background-color: #1E2939;
     padding: 40px 0;
+    width: 370px;
 }
 
 #sidebar img {

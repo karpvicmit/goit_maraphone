@@ -19,6 +19,8 @@ body {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Right Side */
+
 #main-content {
     position: relative;
     padding-left: 90px;
@@ -33,6 +35,22 @@ body {
 #about {
     position: relative;
     margin-top: 110px;
+    max-width: 400px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+#about h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#about h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
 }
 
 #projects {
@@ -40,8 +58,25 @@ body {
     margin-top: 40px;
 }
 
+#projects h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+}
+
+#projects>ol {
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+#projects>ol>li span,a {
+    font-weight: 400;
+}
+
 #projects a {
     color: #595959;
+    margin-left: 10px;
 }
 
 #work {
@@ -49,10 +84,64 @@ body {
     margin-top: 50px;
 }
 
+#work h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+#work h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+#work p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+#work p>span {
+    color: #000000;
+}
+
+#work ul {
+    padding-left: 12px;
+    color:#595959;
+}
+
 #education {
     position: relative;
     margin-top: 45px;
 }
+
+#education h3 {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+#education h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#education h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+
+#education p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+/* Left Side */
 
 #sidebar {
     background-color: #1E2939;
@@ -116,6 +205,7 @@ body {
     margin-top: 40px;
 }
 
+ 
 .sidebar-blocks ul {
     margin-left: -40px;
 }
@@ -129,4 +219,4 @@ body {
     font-weight: 700;
     content: "•";
     padding-right: 10px;
-}
+} 
